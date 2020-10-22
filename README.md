@@ -1,4 +1,7 @@
 # dummy_DNN
+## Running dummy_DNN using Docker
+If you do not have Docker, install it here: https://docs.docker.com/get-docker/.
+
 First, clone the repository to your local machine. Then, from your terminal, cd into the cloned repository and run
 
 ```docker build -t dummydnn .```
