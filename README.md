@@ -18,7 +18,7 @@ and run the following command to build a docker image
 
 ```docker build -t dummydnn .```
 
-(you may substitute 'dummydnn' with any name that you like). Use ```--no-cache=true``` before ```-t``` to stop Docker from using cached files. Once it finishes buiding a Docker image, run
+(you may substitute 'dummydnn' with any name that you like). Use ```--no-cache=true``` to stop Docker from using cached files. Once it finishes buiding a Docker image, run
 
 ```docker run -it --init -p 8080:8080 -v "$(pwd):/home" dummydnn /bin/bash```
 
