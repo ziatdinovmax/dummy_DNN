@@ -1,8 +1,20 @@
 # dummy_DNN
-## Running dummy_DNN using Docker
-If you do not have Docker, install it here: https://docs.docker.com/get-docker/.
+## Running the notebook via Docker container
 
-First, clone the repository to your local machine. Then, from your terminal, cd into the cloned repository and run
+Prerequisites:
+1. Git client. Usually pre-installed on Linux/Mac, but may need to be installed separately on your Windows OS. See the instructions here: https://git-scm.com/downloads
+2. Docker. Installation instructions for Windows, Mac, and Linux can be found here: https://docs.docker.com/get-docker/.
+
+## Build and run docker container
+Open the terminal and clone the repository to your local machine:
+
+```git clone https://github.com/tommycwong/dummy_DNN.git```
+
+Then, from your terminal, cd into the cloned repository
+
+```cd dummy_DNN```
+
+and run the following command to build a docker image
 
 ```docker build -t dummydnn .```
 
